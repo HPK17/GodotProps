@@ -319,8 +319,8 @@ tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
 "handle_modes": PackedInt32Array(0, 0),
-"points": PackedFloat32Array(-826, -0.25, 0, 0.25, 0, 3537, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(2, 4.7)
+"points": PackedFloat32Array(-826, -0.25, 0, 0.25, 0, 5121, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(2, 3.6)
 }
 tracks/7/type = "bezier"
 tracks/7/imported = false
@@ -330,8 +330,8 @@ tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
 "handle_modes": PackedInt32Array(0, 0),
-"points": PackedFloat32Array(-496, -0.25, 0, 0.25, 0, 1929, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(2, 4.7)
+"points": PackedFloat32Array(-496, -0.25, 0, 0.25, 0, 2817, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(2, 3.6)
 }
 tracks/8/type = "value"
 tracks/8/imported = false
@@ -376,7 +376,7 @@ tracks/11/path = NodePath("../MorphineGamesLogo:visible")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
-"times": PackedFloat32Array(0, 4.6),
+"times": PackedFloat32Array(0, 3.9),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
@@ -388,7 +388,7 @@ tracks/12/path = NodePath("../MorphineGamesLogo2:visible")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
-"times": PackedFloat32Array(0, 4.9),
+"times": PackedFloat32Array(0, 4.2),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
@@ -402,7 +402,7 @@ tracks/13/loop_wrap = true
 tracks/13/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(170, -0.25, 0, 0.25, 0, 220, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(5.1, 5.6)
+"times": PackedFloat32Array(4.4, 4.9)
 }
 tracks/14/type = "bezier"
 tracks/14/imported = false
@@ -413,7 +413,7 @@ tracks/14/loop_wrap = true
 tracks/14/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(5.1, 5.7)
+"times": PackedFloat32Array(4.4, 5)
 }
 tracks/15/type = "bezier"
 tracks/15/imported = false
@@ -424,7 +424,7 @@ tracks/15/loop_wrap = true
 tracks/15/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(5.1, 5.7)
+"times": PackedFloat32Array(4.4, 5)
 }
 tracks/16/type = "bezier"
 tracks/16/imported = false
@@ -435,7 +435,7 @@ tracks/16/loop_wrap = true
 tracks/16/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(5.1, 5.7)
+"times": PackedFloat32Array(4.4, 5)
 }
 tracks/17/type = "bezier"
 tracks/17/imported = false
@@ -446,7 +446,7 @@ tracks/17/loop_wrap = true
 tracks/17/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(5.1, 5.7)
+"times": PackedFloat32Array(4.4, 5)
 }
 tracks/18/type = "value"
 tracks/18/imported = false
@@ -512,6 +512,10 @@ texture = ExtResource("4_w8d1h")
 
 [node name="Rainbow2" type="Sprite2D" parent="Rainbow"]
 position = Vector2(-600, 0)
+texture = ExtResource("4_w8d1h")
+
+[node name="Rainbow3" type="Sprite2D" parent="Rainbow"]
+position = Vector2(-1200.12, 0.578033)
 texture = ExtResource("4_w8d1h")
 
 [node name="MorphineGamesLogo" type="Label" parent="."]
